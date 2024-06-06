@@ -167,7 +167,15 @@ padding-top: 0;
   }
 
 }
-
+@media screen and (max-width: 450px) {
+  
+  .why-button{
+    margin: 0.5vw 1vw;
+}
+  .why-button p{
+padding-top: 0;
+  }
+}
 .why-square {
   position: relative;
   margin: 0 10px;

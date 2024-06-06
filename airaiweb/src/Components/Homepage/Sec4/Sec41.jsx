@@ -15,7 +15,7 @@ const Sec41 = () => {
       <div className='flex items-center justify-center text-center'>
         <h1 className='Sec4-head text-white text-4xl font-black font-lato lg:py-12 py-3 text-center'>Growing Exponentially</h1>
       </div>
-      <div className='Sec4-content h-auto grid grid-cols-5 justify-center items-center '>
+      <div className='Sec4-content h-auto grid grid-cols-5 md:grid-cols-2 justify-center items-center '>
         <div className='Circle1 w-full   bg-contain bg-no-repeat bg-center z-0 ' style={{backgroundImage: `url(${circle1})`}}>
           <h1 className='head1   text-center font-black font-barlow text-[#0B0933] '>50%</h1>
           <h1 className='head-P1 text-[#0B0933]  font-extrabold font-barlow  text-center '>Team of <br/>Experts</h1>
