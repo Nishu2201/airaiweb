@@ -28,7 +28,7 @@ const Sec7 = () => {
         </div>
         <img src={character} alt="" className='Char-pic absolute bottom-0 left-1/2 transform -translate-x-1/2 object-contain  sm:text-left' />
         <div className='Sec7-content2 flex  p-20 pb-0 h-auto absolute bottom-10 left-1/2 transform translate-x-0 text-right '>
-          <div className='Content2 h-96 mr-16 '>
+          <div className='Content2  mr-16 '>
             <h1 className=' Cont2-h text-white text-2xl font-black font-lato pb-3 md:text-xl'>Innovative Solutions</h1>
             <p className='Cont2-p text-white text-lg lg:ml-24 font-500 font-lato leading-6'>
             we excel at turning ideas into powerful web solutions for brand growth. We lead the charge in technology
