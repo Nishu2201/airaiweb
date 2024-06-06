@@ -18,7 +18,7 @@ export const Why1 = () => {
           {/* <button className='mt-12 rounded-full bg-gradient-to-r from-sky-800 to-sky-400 py-3'>
             <p className='text-white font-medium text-lg px-10'>Schedule Meeting</p>
           </button> */}
-          <button className='home-button rounded-full bg-gradient-to-r from-[#015eea] to-[#00c0fa] py-3 sm:py-3 px-9 sm:px-14 mt-2 text-white text-lg font-bold '>
+          <button className='home-button rounded-full bg-gradient-to-r from-[#015eea] to-[#00c0fa] py-2 sm:py-3 px-9 sm:px-14 mt-2 text-white text-lg font-bold '>
             <p className='text-white text-[16px] font-lato font-bold  '>
               Schedule Meeting
               </p>
