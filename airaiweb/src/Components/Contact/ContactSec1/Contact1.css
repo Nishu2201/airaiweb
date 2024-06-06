@@ -22,7 +22,7 @@
 }
 
 
-@media (max-width:769px) {
+@media (max-width:768px) {
     .Contact1-data{
         padding: 0.5rem 0;
         display: flex;
@@ -35,8 +35,18 @@
         padding: 0.8rem 0;
     }
     .needs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         margin: 0rem 0.8rem;
       padding: 1rem 1rem;
+    }
+    .needs-p1{
+        text-align: center;
+    }
+    .needs-p2{
+        text-align: center;
     }
     .needs p{
         padding-top: 0.3rem;
