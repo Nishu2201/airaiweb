@@ -1,0 +1,142 @@
+.Service-square {
+   position: relative;
+   margin: 0 10px;
+   max-width: 700px;
+   max-height: 700px;
+   width: 350px;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .Service-square span:nth-child(1) {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #efcba52a;
+   border: none;
+   border-radius: 78% 40% 80% 40% / 65% 40%  50% 80% ;
+   transition: 0.5s;
+   animation: animate 6s linear infinite;
+ }
+ 
+ .Service-square span:nth-child(2) {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #efcba52a;
+   border: none;
+   border-radius:  55% 95% 53% 67% / 51% 94% 60% 69%   ;
+   transition: 0.5s;
+   animation: animate 4s linear infinite;
+ }
+.service-p span{
+   font-weight: 900;
+}
+@media screen and (min-width: 1600px) {
+   .Service1-h1{
+      padding-top: 4vw ;
+   }
+   .Service1-data{
+      padding: 0vw 0;
+   }
+   .service-p {
+       font-size: 1vw;
+       padding-right: 0; 
+       line-height: 2vw;
+   }
+   .Service-pic img{
+      max-width: 90vw;
+      width: 15vw;
+   }
+   .Service-square {
+      width: 25vw;
+   }
+   .service-content{
+      padding-bottom: 11.5vw;
+   }
+   .Marquee {
+     
+      bottom: 0%;
+   }
+   .image-wrapper img {
+      transition: filter 0.3s ease;
+     
+    }
+}
+@media (max-width:1024px) {
+    .Service1-data{
+      display: flex;
+      flex-direction: column;
+    }
+  .service-p{
+   font-size: 3vw;
+   line-height: 5vw;
+  }
+  .service-content{
+  margin: 0;
+   } 
+}
+@media (max-width:850px) {
+   .service-content{
+      padding: 0;
+      margin: 0;
+      } 
+.Service1-data{
+   padding: 0.5rem 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.service-p{
+   font-size: 3vw;
+   line-height: 3rem;
+   text-align: center;
+}
+}
+@media (max-width:769px) {
+   .service-p{
+      padding: 0 4vw;
+      font-size: 3.6vw;
+      line-height: 6vw;
+   }
+}
+/* @media (max-width:450px) {
+    .service-p{
+      padding: 0 3vw;
+      font-size: 3.6vw;
+      line-height: 6vw;
+   }
+} */
+.marquee{
+   display: flexbox;
+ }
+ .marquee-container {
+ overflow: hidden;
+ width: 100%;
+ opacity: 1;
+ height: 100px;
+ }
+
+ 
+ .image-wrapper img {
+   margin: 0 6vw;
+   transition: filter 0.3s ease;
+  
+ }
+
+ 
+ @keyframes marquee {
+   0% {
+     transform: translateX(100%);
+   }
+   100% {
+     transform: translateX(-100%);
+   }
+ }

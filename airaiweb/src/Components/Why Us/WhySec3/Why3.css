@@ -1,0 +1,21 @@
+.Get-Box{
+width:350px;
+height: 450px;
+padding: 0;
+}
+@media screen and (max-width: 769px) {
+    .get-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .why3{
+        padding: 4vw 0;
+    }
+    .why3-head {
+        padding: 3vw 0;
+    }
+}

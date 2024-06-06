@@ -1,0 +1,12 @@
+@media (min-width:1850px){
+.nav-items{
+    padding-right: 9vw;
+}
+.nav-items ul li a{
+    padding: 2vw;
+}
+}
+.Camp-logo{
+    width: 5vw;
+    height: 20%;
+}
