@@ -42,21 +42,23 @@
 @media screen and (min-width: 1600px) {
    .Service1-h1{
       padding-top: 4vw ;
+      font-size: 3vw;
    }
    .Service1-data{
-      padding: 0vw 0;
+      padding: 1vw 0;
    }
    .service-p {
-       font-size: 1vw;
-       padding-right: 0; 
+       font-size: 1.2vw;
+       padding-top: 2vw; 
        line-height: 2vw;
    }
    .Service-pic img{
       max-width: 90vw;
-      width: 15vw;
+      width: 17vw;
    }
    .Service-square {
-      width: 25vw;
+      width: 28vw;
+      height: 25vw;
    }
    .service-content{
       padding-bottom: 11.5vw;

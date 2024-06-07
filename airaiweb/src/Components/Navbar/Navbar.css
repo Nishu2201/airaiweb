@@ -4,6 +4,10 @@
 }
 .nav-items ul li a{
     padding: 2vw;
+    font-size: 1.3vw;
+}
+.nav-btn{
+    font-size: 1.3vw;
 }
 }
 .Camp-logo{

@@ -68,7 +68,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a href='/contact'>
-                            <button className='ml-2 z-20 bg-black bg-opacity-20 px-12 py-2 border-solid border-2 border-slate-200 rounded-full text-[18px] font-bold'>
+                            <button className='nav-btn ml-2 z-20 bg-black bg-opacity-20 px-12 py-2 border-solid border-2 border-slate-200 rounded-full text-[18px] font-bold'>
                                 Business Inquiry
                             </button>
                             </a>
