@@ -20,7 +20,7 @@ export const Contact1 = () => {
           <p className='needs-p2 text-white text-lg font-lato '><span className='font-black'>"</span>Simply complete the form below with details about your 
           project or job requirements, and our representative will promptly get in touch with you.<span className='font-black'>"</span></p>
         </div>
-        <div className='flex items-center justify-center m-0 p-0 mb-6 py-9 ' >
+        <div className='contact-rght flex items-center justify-center m-0 p-0 mb-6 py-9 ' >
         <div className="About-square">
             <span></span>
             <span></span>

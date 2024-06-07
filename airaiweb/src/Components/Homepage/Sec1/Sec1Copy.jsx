@@ -16,7 +16,7 @@ const Sec1Copy = () => {
     <div className='home1 bg-cover bg-center min-h-screen  relative child ' style={{ backgroundImage: `url(${bg})` }}>
       <Navbar />
       <div className='home-sec1 grid grid-cols-1 md:grid-cols-2 px-6 md:px-16 lg:px-24  mb-0 md: mx-9 mb-0'>
-        <div className='Sec1-left h-full z-20 pt-9 '>
+        <div className='Sec1-left  z-20 pt-6 '>
           <div className='Sec1-h1 bg-gradient-to-tl bg-no-repeat items-left justify-center bg-contain' style={{ backgroundImage: `url(${shape1})` }}>
             <h1 className='Sec1-h uppercase font-barlow font-black text-[#0B0933]'>
               crafting
@@ -43,15 +43,15 @@ const Sec1Copy = () => {
           </button>
           </a>
         </div>
-        <div className='absolute inset-x-0 bottom-0 ml-2 z-0 w-auto'>
+        {/* <div className='absolute inset-x-0 bottom-0 ml-2 z-0 w-auto'>
           <img src={line2} alt="" className='h-full line2' />
-        </div>
-        <div className=' Sec1-rght w-full mt-6 mx-12 md:mt-0' style={{ backgroundImage: `url(${stars})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
-          <div className='absolute inset-y-0 top-0 -ml-48 z-0' >
+        </div> */}
+        <div className=' Sec1-rght  ' style={{ backgroundImage: `url(${stars})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+          {/* <div className='absolute inset-y-0 top-0 -ml-48 z-0' >
             <img src={line1} alt="" className='line1' />
-          </div>
-          <div className='Sec1-img flex justify-end w-full'>
-            <img src={Pic1} alt="Design" className='home-pic max-w-full h-auto z-10' />
+          </div> */}
+          <div className='Sec1-img  justify-end '>
+            <img src={Pic1} alt="Design" className='home-pic   z-10' />
           </div>
         </div>
       </div>

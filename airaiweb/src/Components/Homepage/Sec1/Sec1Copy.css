@@ -1,237 +1,149 @@
 .child {
     scroll-snap-align: center;
   }
+  .home-sec1{
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-around;
+    height: 80dvh;
+  }
+  .Sec1-left {
+width: auto;
+  }
   .Sec1-h{
-    font-size: 11rem;
-    line-height: 15rem;
-    
+    font-size: 4.5vw;
+    line-height: 6vw;
 }
 .Sec1-h1{
-    padding-left: 1.2rem;
+    padding-left: 1.2vw;
 }
 .Sec1h3{
-    font-size: 11rem;
-    line-height: 15rem;
-    padding-left:1.3rem;
+    font-size: 4.5vw;
+    line-height: 8vw;
 }
 .Sec1-h2{
-    margin-top: -2rem;
+    margin-top: -0.5vw;
 }
 .Sec1-h3{
-    padding: 40px;
-    padding-left: 20px;
-    margin-top: -3rem;
+    
+    padding-left: 1vw;
+    margin-top: -2rem;
 }
 .quote p{
- font-size: 2.5rem;
- margin: 20px 0 ;
+ font-size: 1.5vw;
+ margin: 0vw 0 ;
 }
 .home-button {
-    margin: 3rem 0;
-    padding: 2rem 4rem;
+    margin: 0.8vw 0;
+    padding: 1.3vw 3vw;
 }
 .home-button p{
-    width: 22rem;
-    font-size: 2rem;
+    width: 12vw;
+    font-size: 1.2vw;
 }
+
 @media (max-width:1599px) {
-    html{
-        font-size: 55%;
-    }
-    /* .Sec1-h{
-        font-size: 100px;
-        line-height: 140px;
-        
-    }
-    .Sec1h3{
-        font-size: 100px;
-        line-height: 110px;
-        padding-left:20px;
-    }
-    .quote p{
-        font-size: 25px;
-        margin: 10px 0 ;
-       }
-    .home-button {
-        padding: 20px 45px;
-    }
-    .home-button p{
-        width: 200px;
-        font-size: 20px;
-    } */
-}
-@media (max-width:768px) {
-    html{
-        font-size: 45%;
-    }
-}
-/* @media (min-width:2050px) {
-
-  .home1{
-      display: block;
-      max-height: 100vh;
-      height: 100%;
-      padding-bottom: 10px;
-  }
-   .home-sec1{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding: 4vw;
-  }
-  .Sec1-left{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: start;
-      width: 50%;
-      height: 100%;
-  }
-  .Sec1-h1{
-      padding: 3vw;
-      padding-bottom: 3.8vw;
-      margin-bottom: -3vw;
-  }
-  .Sec1-h{
-      font-size: 250px;
-  }
-  .Sec1-h2{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5vw 2vw;
-      margin-top: -1vw;
-  }
-  .Sec1-h3{
-      margin-top: -3vw;
-      padding: 3.5vw;
-  } 
-  .quote{
-  font-size: 2vw;
-  padding: 1.58vw 0;
-  }
-  .home-button{
-      max-width: 25vw;
-      margin: 1vw 0;
-      padding: 1.2vw 2.2vw;
-  }
-  .home-button p{
-      font-size: 1.4vw;
-  }
-  .line1{
-      width: 25vw;
-  }
-  .Sec1-rght{
-      padding-top: 2vw;
-  }
-  .Sec1-img{
-      width: 100%;
-      height: 100%;
-  }
-  .home-pic{
-      width: 60vw;
-      height: 40vw;
-  }
-  }
-@media (max-width:1025px) {
-    .home-sec1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .Sec1-left{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-    .line1,
-    .line2{
-        display: none;
-    }
-    .home-sec1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-
     .Sec1-rght{
-        padding-top: 10vw;
+        max-width: 750px;
+        margin: 0 0  0 3vw ;
+    }
+    .home-pic {
+        width: 90%;
     }
 }
-@media (max-width:769px) {
-      .home-sec1{
+@media (max-width:1024px) {
+    .home-sec1{
         display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .Sec1-left{
-        display: flex;
+       flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        height: 80dvh;
       }
-      .Sec1-h1{
-        padding: 0.85rem 0.6rem;
-      }
-    .Sec1-h2{
-        font-size: 2.5rem;
-        padding: 1rem 0.85rem;
-        padding-right: 1.2rem;
-       }
-    .Sec1-h3{
-        padding: 1.8rem 0.6rem;
+      .Sec1-rght{
+        max-width: 450px;
+        margin: 0 0  0 3vw ;
     }
+    .home-pic {
+        width: 100%;
+    }
+}
+@media (max-width:860px) {
+    .home-sec1{
+        display: flex;
+       flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+      }
     .Sec1-h{
-        font-size: 3rem;
-    }
-    .h3{
-        font-size: 3rem;
-    }
-    
-    .Sec1-rght{
-        padding-top: 10vw;
-    }
-
-} */
-/* @media (max-width:450px) {
-    .home-sec1{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .Sec1-left{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+        font-size: 8vw;
+        line-height: 12vw;
     }
     .Sec1-h1{
-      padding: 0.85rem 0.6rem;
+        padding-left: 1.2vw;
     }
-  .Sec1-h2{
-    margin-top: -1.5vw;
-      font-size: 2.5rem;
-      padding: 1rem 0.85rem;
-      padding-right: 1.2rem;
-     }
-  .Sec1-h3{
-      padding: 1.8rem 0.6rem;
-  }
-  .Sec1-h{
-      font-size: 3rem;
-  }
-  .h3{
-      font-size: 3rem;
-  }
-  .Sec1-rght{
-      padding-top: 10vw;
-  }
-  .why-btn{
-    width: 55vw;
-  }
-} */
+    .Sec1h3{
+        font-size: 8vw;
+        line-height: 15vw;
+    }
+    .Sec1-h3{
+    
+        padding-left: 1vw;
+        margin-top: -1rem;
+    }
+    .quote p{
+        font-size: 2vw;
+        margin: 5px 0 ;
+       }
+       .home-button p{
+        width: 18vw;
+        font-size: 2vw;
+    }
+    .Sec1-rght{
+        max-width: 650px;
+        margin: 0 0  0 3vw ;
+    }
+    .home-pic {
+        width: 100%;
+    }
+}
+@media (max-width:490px) {
+    
+    .Sec1-h{
+        font-size: 10vw;
+        line-height: 13vw;
+    }
+    .Sec1-h1{
+        padding: 0  1vw ;
+    }
+    .Sec1h3{
+        font-size: 9vw;
+        line-height: 16vw;
+    }
+    .Sec1-h3{
+    
+        padding-left: 1vw;
+        margin-top: 0;
+    }
+    .Sec1-h2{
+        margin-top: -0.5vw;
+    }
+    .quote p{
+        font-size: 2.7vw;
+        margin: 5px 0 ;
+       }
+       .home-button p{
+        width: 40vw;
+        font-size: 4vw;
+    }
+    .Sec1-rght{
+        max-width: 650px;
+        margin: 6vw 0  0 3vw ;
+    }
+    .home-pic {
+        width: 100%;
+    }
+}

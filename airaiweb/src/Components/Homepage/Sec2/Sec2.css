@@ -1,7 +1,12 @@
 .child {
   scroll-snap-align: center;
 }
-
+/* .Sec2-data{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
 @media (min-width:1600px) {
   .Sec2{
     display: flex;

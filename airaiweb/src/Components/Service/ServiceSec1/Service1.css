@@ -39,7 +39,7 @@
    font-weight: 900;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 2150px) {
    .Service1-h1{
       padding-top: 4vw ;
       font-size: 3vw;
@@ -68,6 +68,39 @@
       transition: filter 0.3s ease;
      
     }
+}
+@media screen and (min-width: 2350px) {
+   .Service1-h1{
+      padding-top: 2vw ;
+      font-size: 2vw;
+      padding-bottom: 0;
+   }
+   .Service1-data{
+      padding: 0;
+   }
+   .service-p {
+       font-size: 1vw;
+       padding-top: 2vw; 
+       line-height: 1.6vw;
+   }
+   .Service-pic{
+      padding: 0;
+   }
+   .Service-pic .Serv-pics{
+      max-width: 90vw;
+      width: 14vw;
+      padding: 0;
+      margin: 0;
+   }
+   .Service-square {
+      width: 22vw;
+      height: 19vw;
+      margin: 0;
+      padding: 0;
+   }
+   .service-content{
+      padding-bottom: 0;
+   }
 }
 /* @media (max-width:1024px) {
     .Service1-data{

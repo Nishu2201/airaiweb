@@ -1,4 +1,4 @@
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 2150px) {
     .Contact1-head {
         padding-top: 5vw;
         font-size: 3vw;
@@ -16,11 +16,48 @@
         font-size: 1.2vw;
         line-height: 2vw;
     }
+    
     .contact1-img{
         width: 20vw;
     }
+    .About-square{
+        width: 28vw;
+        height: 25vw;
+    }
+    
 }
-
+@media screen and (min-width: 2350px) {
+    .Contact1-head {
+        padding-top: 2vw;
+        font-size: 2vw;
+    }
+    .Contact1-data{
+        padding: 0 1vw;
+    }
+    .needs{
+        padding-top: 0.8vw;
+    }
+    .needs-p1{
+        font-size: 4.5vw;
+    }
+    .needs-p2{
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+    .contact1-img{
+        padding: 0;
+        width: 18vw;
+    }
+    .contact-rght{
+        padding-bottom: 0;
+        
+        height: 80%;
+    }
+    .About-square{
+        width: 24vw;
+        height: 22vw;
+    }
+}
 
 @media (max-width:768px) {
     .Contact1-data{

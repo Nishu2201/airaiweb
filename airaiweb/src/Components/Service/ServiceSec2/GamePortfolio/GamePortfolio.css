@@ -362,7 +362,7 @@
           opacity: 1;
         }
       }
-      @media screen and (min-width: 1600px) {
+      @media screen and (min-width: 2150px) {
         .ImgSlide-imageGame2 {
           position: absolute;
          bottom:49%;
@@ -466,5 +466,63 @@
         top:  45%;
         left: 85%;
         animation: bannermove 20s linear infinite;
+      }
+    }
+
+    @media screen and (min-width: 2350px) {
+      .ImgSlide-imageGame2 {
+        position: absolute;
+       bottom:55%;
+       left: 9%;
+       animation: fade ;
+       animation: fadeIn 1s ease-in-out;
+       animation: bannermove 10s linear infinite;
+        z-index: 2;
+      }
+      .ImgSlide-imageGame3 {
+        position: absolute;
+        top:24%;
+        left:28%;
+        animation: fade ;
+        animation: fadeIn 1s ease-in-out;
+        z-index: 2;
+        animation: bannermove 10s linear infinite;
+      }
+      .ImgSlide-imageGame4 {
+        position: absolute;
+        top:70%;
+        left:48%;
+        animation: fade ;
+        animation: fadeIn 1s ease-in-out;
+        z-index: 2;
+        animation: bannermove 10s linear infinite;
+      }
+      .ImgSlide-imageGame5 {
+        position: absolute;
+        bottom: 45%;
+        right:32%;
+        /* bottom: 0; */
+        animation: fade ;
+        animation: fadeIn 1s ease-in-out;
+        animation: bannermove 10s linear infinite;
+        z-index: 1;
+      }
+     
+      .ImgSlide-imageGame6 {
+        position: absolute;
+        top:39%;
+        left: 64%;
+        bottom: 0%;
+        animation: fadeIn 1s ease-in-out;
+        animation: bannermove 10s linear infinite;
+        z-index: 2;
+      }
+      .ImgSlide-imageGame7 {
+        position: absolute;
+        bottom: 50%;
+        left: 70%;
+        animation: fadeIn 1s ease-in-out;
+        animation: bannermove 10s linear infinite;
+        z-index: 1;
       }
     }

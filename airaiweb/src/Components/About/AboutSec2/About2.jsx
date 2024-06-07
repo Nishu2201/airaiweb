@@ -12,7 +12,7 @@ export const About2 = () => {
   return (
     <div className='bg-cover bg-center min-h-screen pt-9 child' style={{ backgroundImage: `url(${bg})` }}>
       <h1 className='About2-head text-center text-white font-lato font-black text-3xl pb-6 pt-0'>Meet Our Team</h1>
-      <div className='About-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center px-24 pt-3 pb-6'>
+      <div className='About-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 2xl:gap-16 justify-items-center px-24 pt-3 pb-6'>
         
         <div className='About2-data flex flex-col items-center justify-center text-white text-xl font-semibold text-center mx-20'>
           <img src={CEO} alt="Aman" className='w-32 h-32 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full' />
