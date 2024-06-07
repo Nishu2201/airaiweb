@@ -6,9 +6,9 @@ import leftArrow from '../../../../images/Service/sec2/Web-designs/arrow/arrowle
 import RghtArrow from '../../../../images/Service/sec2/Web-designs/arrow/arrowright.png';
 
 const WebPortfolio = () => {
-  useEffect(() => {
-    console.log("Component mounted");
-}, []);
+//   useEffect(() => {
+//     console.log("Component mounted");
+// }, []);
   const ImageCarousel = ({ data, title }) => {
     const [slideIndex, setSlideIndex] = useState(0);
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 960);

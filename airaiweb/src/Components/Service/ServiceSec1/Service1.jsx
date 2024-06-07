@@ -30,7 +30,7 @@ export const Service1 = () => {
       <div className='flex items-center justify-center text-center'>
         <h1 className='Service1-h1 text-white text-4xl font-black font-lato py-6 pb-2 text-center'>Our Services</h1>
       </div>
-      <div className='Service1-data grid grid-cols-1 xl:grid-cols-2 gap-4'>
+      <div className='Service1-data grid grid-cols-1 xl:grid-cols-2 gap-4 pt-12'>
         <div className='service-content flex flex-col items-start justify-start p-20 pb-16 m-6 my-0 mr-0 pr-6'>
           <p className='service-p text-white text-[16px] font-lato '>We provide a comprehensive suite of digital services to meet 
             all your creative and technical needs. Our <span>game design</span> and <span>development</span> team brings your gaming visions to life, creating 
@@ -52,7 +52,7 @@ export const Service1 = () => {
         </div>
       </div>
       
-      <section className="Marquee bg-white  ">
+      {/* <section className="Marquee bg-white  ">
           <h1 className="text-center font-lato font-black text-2xl py-3 ">Technologies we  use</h1>
         <div>
             <Marquee className="marquee-container flex justify-between pb-6" speed={250}>
@@ -89,7 +89,7 @@ export const Service1 = () => {
             </div>
             </Marquee>
           </div>
-          </section>
+          </section> */}
          
     </div>
   );

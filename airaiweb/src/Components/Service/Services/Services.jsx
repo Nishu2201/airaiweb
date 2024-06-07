@@ -10,7 +10,8 @@ const Services = () => {
     
     <Service1 /></div>
    {/* <MarqueeEffect/> */}
-   <Service2 /></>
+   <Service2 />
+   </>
   )
 }
 
