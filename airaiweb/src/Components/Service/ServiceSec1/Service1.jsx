@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './Service1.css';
 
 import '../Marquee/MarqueeEffect.css';
@@ -18,6 +18,12 @@ import design from '../../../images/Service/sec 1/design_.png';
 import Navbar from '../../Navbar/Navbar';
 
 export const Service1 = () => {
+  useEffect(() => {
+    console.log("Component mounted");
+}, []);
+
+
+
   return (
     <div className='Services bg-cover bg-center min-h-screen overflow-hidden child relative' style={{ backgroundImage: `url(${bg})` }}>
       <Navbar />
@@ -25,7 +31,7 @@ export const Service1 = () => {
         <h1 className='Service1-h1 text-white text-4xl font-black font-lato py-6 pb-2 text-center'>Our Services</h1>
       </div>
       <div className='Service1-data grid grid-cols-1 xl:grid-cols-2 gap-4'>
-        <div className='service-content flex flex-col items-start justify-start p-20 pb-0 m-6 my-0 mr-0 pr-6'>
+        <div className='service-content flex flex-col items-start justify-start p-20 pb-16 m-6 my-0 mr-0 pr-6'>
           <p className='service-p text-white text-[16px] font-lato '>We provide a comprehensive suite of digital services to meet 
             all your creative and technical needs. Our <span>game design</span> and <span>development</span> team brings your gaming visions to life, creating 
             immersive and engaging experiences across multiple platforms.Our <span>web design and development services</span> ensure your 
@@ -45,7 +51,7 @@ export const Service1 = () => {
           </div>
         </div>
       </div>
-      <div className='relative bottom-0'>
+      
       <section className="Marquee bg-white  ">
           <h1 className="text-center font-lato font-black text-2xl py-3 ">Technologies we  use</h1>
         <div>
@@ -84,7 +90,7 @@ export const Service1 = () => {
             </Marquee>
           </div>
           </section>
-          </div>
+         
     </div>
   );
 };

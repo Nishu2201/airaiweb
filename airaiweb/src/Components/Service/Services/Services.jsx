@@ -6,7 +6,9 @@ import MarqueeEffect from '../Marquee/MarqueeEeffect'
 const Services = () => {
   return (
    <>
-   <div><Service1 /></div>
+   <div>
+    
+    <Service1 /></div>
    {/* <MarqueeEffect/> */}
    <Service2 /></>
   )

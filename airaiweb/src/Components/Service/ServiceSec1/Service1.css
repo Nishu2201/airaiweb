@@ -38,6 +38,10 @@
 .service-p span{
    font-weight: 900;
 }
+.Marquee {
+   margin-bottom: -8vw;
+    bottom: 0%;
+ }
 @media screen and (min-width: 1600px) {
    .Service1-h1{
       padding-top: 4vw ;
@@ -61,7 +65,7 @@
       padding-bottom: 11.5vw;
    }
    .Marquee {
-     
+     margin-bottom: -2vw;
       bottom: 0%;
    }
    .image-wrapper img {

@@ -21,7 +21,7 @@ function App() {
 
   return (
     <Router>
-      <main className="parent">
+      {/* <main className="parent"> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -32,7 +32,7 @@ function App() {
       <Scroll onClick={scrollToTop} />
       <Footer />
      
-      </main>
+      {/* </main> */}
       
     </Router>
   );

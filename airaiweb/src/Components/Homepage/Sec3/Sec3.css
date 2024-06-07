@@ -1,3 +1,8 @@
+.child {
+  position: relative;
+  scroll-snap-align: center;
+}
+
 /* Sec3.css */
 .slider-div {
   display: flex;

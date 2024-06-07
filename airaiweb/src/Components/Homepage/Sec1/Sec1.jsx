@@ -13,7 +13,7 @@ import stars from '../../../images/sec 1/stars.png';
 
 const Sec1 = () => {
   return (
-    <div className='home1 bg-cover bg-center min-h-screen  relative child' style={{ backgroundImage: `url(${bg})` }}>
+    <div className='home1 bg-cover bg-center min-h-screen  relative child ' style={{ backgroundImage: `url(${bg})` }}>
       <Navbar />
       <div className='home-sec1 grid grid-cols-1 md:grid-cols-2 px-6 md:px-16 lg:px-24  mb-0 md: mx-9 mb-0'>
         <div className='Sec1-left h-full z-20 pt-9 '>
