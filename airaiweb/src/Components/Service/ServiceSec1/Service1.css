@@ -38,10 +38,7 @@
 .service-p span{
    font-weight: 900;
 }
-/* .Marquee {
-   margin-bottom: -8vw;
-    bottom: 0%;
- } */
+
 @media screen and (min-width: 1600px) {
    .Service1-h1{
       padding-top: 4vw ;
@@ -64,10 +61,7 @@
    .service-content{
       padding-bottom: 11.5vw;
    }
-   .Marquee {
-     margin-bottom: -2vw;
-      bottom: 0%;
-   }
+
    .image-wrapper img {
       transition: filter 0.3s ease;
      
@@ -125,29 +119,3 @@
       line-height: 6vw;
    }
 } */
-.marquee{
-   display: flexbox;
- }
- .marquee-container {
- overflow: hidden;
- width: 100%;
- opacity: 1;
- height: 100px;
- }
-
- 
- .image-wrapper img {
-   margin: 0 6vw;
-   transition: filter 0.3s ease;
-  
- }
-
- 
- @keyframes marquee {
-   0% {
-     transform: translateX(100%);
-   }
-   100% {
-     transform: translateX(-100%);
-   }
- }
