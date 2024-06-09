@@ -54,7 +54,7 @@
       transform: rotate(0deg);
     }
   }
-  @media screen and (max-width: 2150px) {
+  @media screen and (min-width: 1600px) {
     .About1{
       padding-left: 2.5vw;
       padding-top: 3vw;
@@ -188,22 +188,38 @@ font-size: 2vw;
     
   }
   @media (max-width:550px) {
+    .About1-h1{
+      padding: 0.3rem 0;
+    }
+    .whos-p1 {
+      text-align: center;
+      color: white;
+      font-size: 5vw;
+      padding-bottom: 0.5vw;
+    }
+    .whos-p2 {
+      color: white;
+      padding: 0.8vw 0;
+      padding-bottom: 0%;
+      font-size: 3vw ;
+      line-height: 4.5vw;
+    }
     .About-square {
       position: relative;
       margin: 0 10px;
-      width: 350px;
+      width: 320px;
       height: 300px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
     .About1-img{
-      width: 230px;
+      width: 300px;
     }
   }
   @media (max-width:392px) {
 .whos{
-  padding: 1rem;
+  padding: 0.5rem;
   /* font-size: 2rem; */
 }
   }

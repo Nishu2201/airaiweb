@@ -17,15 +17,15 @@ export const Why12 = () => {
           {/* <button className='why-btn bg-gradient-to-r from-sky-800 to-sky-400 rounded-full w-84'>
             <p>Schedule Meeting</p>
           </button> */}
-          <button className='why-button text-center rounded-full bg-gradient-to-r from-[#015eea] to-[#00c0fa] py-2 sm:py-1 px-9 sm:px-14 mt-2 text-white text-lg font-bold '>
-            <p className='text-white text-[16px] font-lato font-bold  text-center'>
+          <button className='why-button text-white text-[16px] font-lato font-bold  text-center rounded-full bg-gradient-to-r from-[#015eea] to-[#00c0fa] py-2 sm:py-1 px-9 sm:px-14 mt-2 text-white text-lg font-bold '>
+            <p className='why-btn text-white text-[16px] font-lato font-bold  text-center'>
               Schedule Meeting
               </p>
           </button>
           </a>
         </div>
         <div className='right flex items-center justify-center m-0 p-0 mb-6' >
-          <div className="About-square">
+          <div className="why-square">
             <span></span>
             <span></span>
             <span></span>

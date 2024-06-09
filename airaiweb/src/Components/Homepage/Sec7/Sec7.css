@@ -223,9 +223,9 @@ text-wrap: wrap;
   margin-right: 14vw;
 }
 .Sec7-content2{
-  margin-top: 0;
+  margin-top: 2vw;
   margin-bottom: 0;
-  padding-top: 13vw;
+  padding-top: 15vw;
   padding-right: 1vw;
   padding-left: 22vw;
   display: flex;
@@ -292,4 +292,11 @@ text-wrap: wrap;
   font-size: 1vw;
   line-height: 2.2vw;
 }
+}
+
+@media (min-width: 2450px) {
+  .Char-pic{
+    width: 15vw;
+    left: 47%;
+  }
 }

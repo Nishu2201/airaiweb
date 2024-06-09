@@ -288,7 +288,7 @@
     padding: 0vw 4.8vw;
   }
 }
-@media (max-width: 2150px) {
+@media (min-width: 1600px) {
   .Sec3{
     padding: 0;
     padding-top: 2vw;
@@ -310,7 +310,6 @@ margin-top: 1vw;
 .slide-divs {
   text-wrap: wrap;
   max-height: 90vh;
-  background-color: #ff0707;
   width:40vh;
   height: 60vh;
   padding-top: 2vw;
@@ -347,7 +346,6 @@ margin-top: 1vw;
 }
 .slide-divs {
   max-height: 90vh;
-  /* background-color: #60daaa; */
   width: 50vh;
   height: 62vh;
   padding-top: 2vw;

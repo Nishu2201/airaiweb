@@ -1,7 +1,5 @@
 /* Default styles */
-.Choose-head {
-  font-size: 4.7vw;
-}
+
 
 .why-head {
   text-align: center;
@@ -9,12 +7,17 @@
   font-weight: 900;
   color: white;
   font-family: "lato";
-  padding: 20px 0;
+  padding: 2vw 0;
+  /* padding-bottom: 3px; */
+  margin: 0;
 }
 
 .Choose {
   display: flex;
-  padding: 4px 5vw;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  padding: 0 5vw;
 }
 
 .left {
@@ -28,6 +31,7 @@
   font-weight: 700;
   color: white;
   padding: 20px 0;
+  padding-top: 5px;
   line-height: 12vh;
 }
 
@@ -63,7 +67,23 @@
   width: auto;
   height: auto;
 }
-@media screen  and (max-width: 2150px) {
+@media  (min-width: 2450px) {
+  .why-head{
+    padding-top: 2vw;
+    font-size: 3vw;
+  }
+  .Choose{
+    padding: 3vw 6vw;
+    padding-bottom: 1vw;
+  }
+  .left h3{
+    font-size: 1.3vw;
+  }
+  .why-button p{
+    font-size: 1.2vw;
+}
+}
+@media screen  and (min-width: 1600px) {
 .Choose{
   padding: 3vw 6vw;
   padding-bottom: 1vw;
@@ -109,6 +129,19 @@
 .why-button p{
     font-size: 1.2vw;
 }
+}
+@media screen and (max-width: 1024px) {
+  .Choose{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .left h1 {
+    font-size: 4vw;
+    line-height: 8vh;
+    text-align: left;
+  }
 }
 @media screen and (max-width: 769px) {
   .Choose {
@@ -169,12 +202,23 @@ padding-top: 0;
 
 }
 @media screen and (max-width: 450px) {
-  
+  .Choose{
+    display: flex;
+    justify-content: center;
+  }
   .why-button{
     margin: 0.5vw 1vw;
+    font-size: 1vw;
 }
-  .why-button p{
-padding-top: 0;
+  .why-button .why-btn{
+padding: 0;
+  }
+
+  .why-img{
+    width: 200px;
+  }
+  .why-square{
+    padding-top: 5vw;
   }
 }
 .why-square {

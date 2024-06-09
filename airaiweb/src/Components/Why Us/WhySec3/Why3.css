@@ -19,3 +19,19 @@ padding: 0;
         padding: 3vw 0;
     }
 }
+
+@media (min-width: 2450px) {
+    .why3{
+       padding-top: 4vw;
+    }
+    .why3-head {
+        font-size:3vw;
+        padding: 2vw 0;
+    }
+    .get-div
+.get-div h1{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+}
+
+}
