@@ -268,7 +268,8 @@
 } 
 @media (max-width:450px) {
   .Sec4{
-    padding: 3vw;
+    padding: 4vw;
+    padding-top: 5vw;
   }
   .Sec4-head{
     font-size: 7.5vw;

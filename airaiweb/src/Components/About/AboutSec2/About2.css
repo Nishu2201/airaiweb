@@ -21,3 +21,9 @@
         padding-top: 0;
     }
     }
+
+    @media (max-width:550px) {
+        .About2-head{
+            font-size: 6vw;
+        }
+    }

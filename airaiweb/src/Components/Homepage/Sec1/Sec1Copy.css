@@ -110,7 +110,20 @@ width: auto;
         width: 100%;
     }
 }
+@media (max-width:550px) {
+.home-sec1{
+    height: auto;
+}
+}
 @media (max-width:490px) {
+    .home1{
+        height: auto;
+    }
+    .home-sec1{
+        margin: 0;
+        padding-top: 0vw;
+        height: 80vh;
+    }
     
     .Sec1-h{
         font-size: 10vw;
@@ -139,11 +152,20 @@ width: auto;
         width: 40vw;
         font-size: 4vw;
     }
+
     .Sec1-rght{
-        max-width: 650px;
-        margin: 6vw 0  0 3vw ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+       
+        margin: 0 ;
+    }
+    .Sec1-img{
+        width: 500px;
     }
     .home-pic {
-        width: 100%;
+        padding-top: 2vw;
+        width: 750px;
     }
 }

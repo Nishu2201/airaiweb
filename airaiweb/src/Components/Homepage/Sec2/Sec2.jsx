@@ -5,7 +5,7 @@ import design from '../../../images/sec 2/design.png';
 
 export const Sec2 = () => {
   return (
-    <div className='Sec2 bg-cover bg-center min-h-screen p-6 overflow-hidden' style={{ backgroundImage: `url(${bg})` }}>
+    <div className='Sec2 bg-cover bg-center h-screen p-6 overflow-hidden' style={{ backgroundImage: `url(${bg})` }}>
       <div className='flex items-center justify-center text-center'>
       <h1 className='text-white text-4xl font-black font-lato py-9'>About Us</h1>
       </div>

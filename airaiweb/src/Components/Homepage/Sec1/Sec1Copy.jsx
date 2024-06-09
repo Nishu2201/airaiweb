@@ -15,7 +15,7 @@ const Sec1Copy = () => {
   return (
     <div className='home1 bg-cover bg-center min-h-screen  relative child ' style={{ backgroundImage: `url(${bg})` }}>
       <Navbar />
-      <div className='home-sec1 grid grid-cols-1 md:grid-cols-2 px-6 md:px-16 lg:px-24  mb-0 md: mx-9 mb-0'>
+      <div className='home-sec1 grid grid-cols-1 md:grid-cols-2 px-6 md:px-16 lg:px-24  mb-0 md: mx-9 mb-0 sm:py-auto'>
         <div className='Sec1-left  z-20 pt-6 '>
           <div className='Sec1-h1 bg-gradient-to-tl bg-no-repeat items-left justify-center bg-contain' style={{ backgroundImage: `url(${shape1})` }}>
             <h1 className='Sec1-h uppercase font-barlow font-black text-[#0B0933]'>
@@ -50,7 +50,7 @@ const Sec1Copy = () => {
           {/* <div className='absolute inset-y-0 top-0 -ml-48 z-0' >
             <img src={line1} alt="" className='line1' />
           </div> */}
-          <div className='Sec1-img  justify-end '>
+          <div className='Sec1-img  '>
             <img src={Pic1} alt="Design" className='home-pic   z-10' />
           </div>
         </div>
