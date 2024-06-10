@@ -66,7 +66,8 @@ const Sec5 = () => {
           height: "10px",
           borderRadius: "50%",
           backgroundColor: "white",
-          border: "none"
+          border: "none",
+          alignItems: "center"
         }}
       ></button>
     ),

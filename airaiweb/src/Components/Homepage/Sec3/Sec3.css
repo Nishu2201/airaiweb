@@ -123,12 +123,7 @@
     transform: rotateY(360deg);
   }
 }
-.slick-dots li button {
-  padding-right: 5vw;
-  /* background-color: #ff0707; */
-  text-align: center;
-  font-size: 1rem !important;
-}
+
 .slick-dots li button:before {
   text-align: center;
   color: #fffdfd !important;
@@ -338,6 +333,11 @@ margin-top: 1vw;
   padding-top: 1vw ;
   font-size:1vw;
   line-height: 2.2vw;
+}
+.slick-dots li button {
+  /* margin-right: 22vw; */
+  text-align: center;
+  font-size: 1rem ;
 }
 }
 @media (min-width: 2450px) {
