@@ -362,6 +362,54 @@
           opacity: 1;
         }
       }
+      @media screen and (max-width: 1480px) {
+        .ImgSlide-imageGame3 {
+          position: absolute;
+          top:27%;
+          left:35%;
+          animation: fade ;
+          animation: fadeIn 1s ease-in-out;
+          z-index: 2;
+          animation: bannermove 10s linear infinite;
+        }
+        .ImgSlide-imageGame4 {
+          position: absolute;
+          top:68%;
+          left:65%;
+          animation: fade ;
+          animation: fadeIn 1s ease-in-out;
+          z-index: 2;
+          animation: bannermove 10s linear infinite;
+        }
+        .ImgSlide-imageGame6 {
+          position: absolute;
+          top:31%;
+          left: 74%;
+          bottom: 0%;
+          animation: fadeIn 1s ease-in-out;
+          animation: bannermove 10s linear infinite;
+          z-index: 2;
+        }
+        .ImgSlide-imageGame17 {
+          position: absolute;
+          bottom:  35%;
+          right: 0%;
+          animation: bannermove 20s linear infinite;
+        }
+        .ImgSlide-imageGame18 {
+          position: absolute;
+          top:  60%;
+          right:10%;
+          animation: bannermove 20s linear infinite;
+        }
+        .ImgSlide-imageGame19 {
+          position: absolute;
+          top:  45%;
+          left: 86%;
+          animation: bannermove 20s linear infinite;
+        }
+      }
+
       @media screen and (min-width: 1600px) {
         .ImgSlide-imageGame2 {
           position: absolute;

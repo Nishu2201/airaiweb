@@ -376,6 +376,9 @@
                animation: slideIn 7s ease-in-out;
               }
       }
+      @media screen and (max-width: 1480px) {
+        
+      }
       @media (max-width: 1250px) {
         .ImgSlider-container{
           height: auto;

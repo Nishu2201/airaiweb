@@ -37,7 +37,7 @@ const Sec3 = () => {
         }
       },
       {
-        breakpoint: 1250,
+        breakpoint: 1350,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -52,7 +52,7 @@ const Sec3 = () => {
       <div className='flex items-center justify-center text-center '>
       <h1 className='Sec3-head text-white text-4xl font-black font-lato lg:py-6 py-3 text-center' >Our Expertise</h1>
       </div>
-      <div className='slider-div flex justify-center items-center lg:m-2 lg:pl-12 mb-0 md:mx-10 '>
+      <div className='slider-div flex flex-wrap justify-center items-center lg:m-2 lg:pl-12 mb-0 md:mx-10 '>
         <div className='w-full lg:p-4 rounded-lg '>
           <Slider {...settings} className="slider">
             <div>

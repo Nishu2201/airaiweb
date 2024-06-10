@@ -1,4 +1,4 @@
-/* .parent {
+.parent {
   height: 100vh;
   overflow: auto;
   padding: var(--scroll-gap);
@@ -21,4 +21,4 @@ html, body, #root, .App {
   justify-content: center;
   align-items: center;
   height: 100vh; 
-} */
+}

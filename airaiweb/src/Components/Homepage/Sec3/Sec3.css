@@ -136,9 +136,22 @@
 }
 
 @media (max-width: 1300px) {
-/* .slide-divs{
-  margin: 0 1vw ;
-} */
+  .slider-div {
+    padding: 3vw 1vw;
+    padding-top:1vw;
+    margin-top: 1vw;
+  }
+  .slide-divs {
+    width: 60vh;
+    height:35rem;
+    margin: 2vw auto;
+    margin-bottom: 4rem;
+  }
+  .slide-p{
+    font-size: 1.9vw;
+    line-height: 3vw;
+    padding: 1vw 5vw
+  }
 }
 
 @media (max-width: 1024px) {
