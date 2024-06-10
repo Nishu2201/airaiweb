@@ -320,6 +320,7 @@
 align-items: center;
 justify-content: center;
 margin-top: 1vw;
+margin: 0;
 }
 .slide-divs {
   text-wrap: wrap;
