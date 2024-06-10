@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, ZoomControl } from 'react-leaflet';
+import React from 'react';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
@@ -13,34 +13,21 @@ L.Icon.Default.mergeOptions({
 
 const FooterMap = () => {
   const position = [30.709330, 76.689280]; // Fixed position
-  const [isInteractive, setIsInteractive] = useState(window.innerWidth > 768);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsInteractive(window.innerWidth > 768);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   return (
-    <div style={{ height: '60vh' }} className=''>
+    <div style={{ height: '60vh' }} className='footer-map-container'>
       <MapContainer
         center={position}
         zoom={13}
         style={{ height: '100%' }}
         attributionControl={false}
-        zoomControl={false} // Disable default zoom control
-        dragging={isInteractive}
-        touchZoom={isInteractive}
-        doubleClickZoom={isInteractive}
-        scrollWheelZoom={isInteractive}
-        boxZoom={isInteractive}
-        keyboard={isInteractive}
+        zoomControl={false}
+        dragging={false}
+        touchZoom={false}
+        doubleClickZoom={false}
+        scrollWheelZoom={false}
+        boxZoom={false}
+        keyboard={false}
       >
         <TileLayer
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
@@ -51,7 +38,6 @@ const FooterMap = () => {
             Company Location
           </Popup>
         </Marker>
-        {isInteractive && <ZoomControl position="bottomright" />}
       </MapContainer>
     </div>
   );
