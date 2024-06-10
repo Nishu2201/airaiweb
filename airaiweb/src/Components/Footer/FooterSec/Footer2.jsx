@@ -34,7 +34,7 @@ const Footer2 = () => {
               </div>
             </div>
           </div>
-          <div className="w-full  md:w-3/4 lg:w-1/4 mb-8 justify-items-stretch items-center">
+          <div className="Quick w-full  md:w-3/4 lg:w-1/4 mb-8 justify-items-stretch items-center">
             <h4 className="text-white font-black font-lato text-xl mb-2 justify-self-start">Quick Links</h4>
             <ul className="text-white font-normal font-lato text-base justify-self-start text-left">
               <li className="p-2 pl-0 "><a href="/">Home</a></li>

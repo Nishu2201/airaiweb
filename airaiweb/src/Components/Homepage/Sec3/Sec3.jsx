@@ -48,7 +48,7 @@ const Sec3 = () => {
   };
 
   return (
-    <div className='Sec3 bg-cover bg-center min-h-screen lg:p-6 child' style={{ backgroundImage: `url(${bg})` }}>
+    <div className='Sec3 bg-cover bg-center min-h-screen lg:p-6 child overflow-hidden' style={{ backgroundImage: `url(${bg})` }}>
       <div className='flex items-center justify-center text-center '>
       <h1 className='Sec3-head text-white text-4xl font-black font-lato lg:py-6 py-3 text-center' >Our Expertise</h1>
       </div>

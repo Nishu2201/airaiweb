@@ -30,3 +30,27 @@
         padding: 0 2vw;
     }
 }
+
+@media screen and (min-width: 2350px) {
+    .follow p{
+        font-size: 0.8vw;
+        padding-bottom: 0.25vw;
+    }
+    .Quick h4{
+        font-size: 1.2vw;
+        padding-bottom: 0.5vw;
+    }
+    .Quick ul li{
+        font-size: 0.8vw;
+    }
+    .address h4{
+        font-size: 1.2vw;
+        padding-bottom: 0.5vw;
+    }
+    .address p{
+        font-size: 0.8vw;
+    }
+    .copyright p{
+        font-size: 0.9vw;
+    }
+}
