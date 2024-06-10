@@ -53,8 +53,8 @@ const Sec3 = () => {
       <h1 className='Sec3-head text-white text-4xl font-black font-lato lg:py-6 py-3 text-center' >Our Expertise</h1>
       </div>
       <div className='slider-div flex flex-wrap justify-center items-center lg:m-2 lg:pl-12 mb-0 md:mx-10 '>
-        <div className='w-full lg:p-4 rounded-lg '>
-          <Slider {...settings} className="slider">
+        <div className='w-full  '>
+          <Slider {...settings} className="slider w-auto">
             <div>
               <div className='slide-divs draw meet '>
                 <div className="Card flex items-center justify-center w-full h-28">
@@ -116,8 +116,8 @@ const Sec3 = () => {
                 <div className='slide-content h-46'>
                 <h1 className='text-white text-2xl font-bold mb-2 text-center lg:px-12 lg:py-3 pb-2 slide-h1 px-6'>Web Design <br/>& Development</h1>
                 <p className='text-white text-center text-lg lg:px-10 lg:pb-12 slide-p px-3 pb-3'>
-                Boost your online visibility with our expert web development services. From responsive and sleek designs
-                 to robust backends, we create websites that look stunning and perform seamlessly.   </p>
+                Boost your online visibility with our expert web development services. From sleek, responsive designs 
+                to robust backend, we create websites that look stunning and perform seamlessly.   </p>
               </div>
               </div>
             </div>

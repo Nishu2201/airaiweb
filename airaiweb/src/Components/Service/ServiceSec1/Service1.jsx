@@ -25,7 +25,7 @@ export const Service1 = () => {
 
 
   return (
-    <div className='Services bg-cover bg-center min-h-screen overflow-hidden child relative' style={{ backgroundImage: `url(${bg})` }}>
+    <div className='Services bg-cover bg-center min-h-screen overflow-hidden  relative' style={{ backgroundImage: `url(${bg})` }}>
       <Navbar />
       <div className='flex items-center justify-center text-center'>
         <h1 className='Service1-h1 text-white text-4xl font-black font-lato py-6 pb-2 text-center'>Our Services</h1>
@@ -51,45 +51,7 @@ export const Service1 = () => {
           </div>
         </div>
       </div>
-      
-      {/* <section className="Marquee bg-white  ">
-          <h1 className="text-center font-lato font-black text-2xl py-3 ">Technologies we  use</h1>
-        <div>
-            <Marquee className="marquee-container flex justify-between pb-6" speed={250}>
-              <div className="image-wrapper" >
-              <img src={cSharp} alt="pics" />
-              </div>
-              
-            <div className="image-wrapper" >
-            <img src={maya} alt="pics" height={70}/>
-            </div>
-            <div className="image-wrapper">
-            <img src={blender} alt="pics" height={70}/>
-            </div>
-            <div className="image-wrapper">
-            <img src={unity} alt="pics" height={70} />
-            </div>
-            <div className="image-wrapper">
-            <img src={ps} alt="pics" height={70}/>
-            </div>
-            <div className="image-wrapper">
-            <img src={figma} alt="pics" height={70}/>
-            </div>
-            <div className="image-wrapper">
-            <img src={ai} alt="pics" height={70}/>
-            </div>
-            <div className="image-wrapper">
-            <img src={react} alt="pics" height={70}/>
-            </div>
-            <div className="image-wrapper">
-            <img src={node} alt="pics" height={70}/>
-            </div>
-            <div className="image-wrapper">
-            <img src={flutter} alt="pics" height={70}/>
-            </div>
-            </Marquee>
-          </div>
-          </section> */}
+
          
     </div>
   );

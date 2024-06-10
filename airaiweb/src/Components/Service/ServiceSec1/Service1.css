@@ -38,8 +38,48 @@
 .service-p span{
    font-weight: 900;
 }
+@media screen and (min-width: 1500px) {
+   .Service1-h1{
+      padding: 2vw ;
+      font-size: 3vw;
+   }
+   .Service1-data{
+      padding: 0;
+      margin: 0;
+   }
+   .service-content{
+      margin: 0;
+      padding-top: 3vw; 
+   }
+   .service-p {
+       font-size: 1.2vw;
+       padding: 0;
+       
+       line-height: 2vw;
+   }
+   .Service-pic{
+      padding: 0;
+      padding-bottom: 6vw;
+      margin: 0;
+   }
+   .Service-pic img{
+      max-width: 90vw;
+      width: 17vw;
+   }
+   .Service-square {
+      width: 28vw;
+      height: 25vw;
+   }
+   /* .service-content{
+      padding-bottom: 11.5vw;
+   } */
 
-@media screen and (min-width: 1600px) {
+   .image-wrapper img {
+      transition: filter 0.3s ease;
+     
+    }
+}
+@media screen and (min-width: 1700px) {
    .Service1-h1{
       padding-top: 4vw ;
       font-size: 3vw;

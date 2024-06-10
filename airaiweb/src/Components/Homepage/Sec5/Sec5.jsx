@@ -97,7 +97,7 @@ const Sec5 = () => {
       </div>
       <div className='Img-container'>
         <div className='Image-div h-full flex justify-center items-center lg:m-2 '>
-          <div className='w-full py-3 '>
+          <div className='w-full py-3'>
             <Slider {...settings2}>
               {[pic1, pic2, pic3, pic1, pic2, pic3].map((pic, index) => (
                 <div key={index} className={`img-slider w-full h-full 

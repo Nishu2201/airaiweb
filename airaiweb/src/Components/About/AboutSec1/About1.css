@@ -54,7 +54,40 @@
       transform: rotate(0deg);
     }
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (max-width: 1550px) {
+    .About1{
+      padding-left: 2.5vw;
+      padding-top: 0;
+    }
+    .whos{
+      padding-top: 0;
+    }
+.About1-h1{
+  padding-bottom: 0.3vw;
+  font-size: 3vw;
+}
+    .whos-p1 {
+      text-align: center;
+      color: white;
+      font-size: 2vw;
+      padding-bottom: 1vw;
+      padding-left: 1vw;
+    }
+    .whos-p2 {
+      color: white;
+      padding: 0;
+      padding-left: 1vw;
+      padding-bottom: 0%;
+      font-size: 1vw ;
+      line-height: 2vw;
+    }
+    .About1-pic{
+      margin: 0;
+      padding-bottom: 2vw;
+    }
+
+ }
+  @media screen and (min-width: 1700px) {
     .About1{
       padding-left: 2.5vw;
       padding-top: 3vw;

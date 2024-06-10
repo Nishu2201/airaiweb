@@ -130,6 +130,17 @@
     font-size: 1.2vw;
 }
 }
+@media screen  and (max-width: 1550px) {
+  .why-head{
+    padding-top: 00.8vw;
+    font-size: 3vw;
+  }
+    .left h1 {
+      font-size: 4vw;
+      line-height: 4vw;
+      
+    }
+}
 @media screen and (max-width: 1024px) {
   .Choose{
     display: flex;
