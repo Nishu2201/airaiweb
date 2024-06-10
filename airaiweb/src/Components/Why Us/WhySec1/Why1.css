@@ -43,11 +43,8 @@
   padding: 0.5vw 0;
 }
 
-.left p {
-  padding: 1vw 3vw;
-  font-family: 'lato';
-  font-weight: 600;
-  color: white;
+.left .why-btn {
+  padding: 0;
 }
 
 .left button {
