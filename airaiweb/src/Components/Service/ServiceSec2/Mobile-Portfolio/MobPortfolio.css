@@ -70,7 +70,7 @@
       }
       .ImgSlide-imagemob3 {
         position: absolute;
-        top: 15%;
+        top: 16%;
         left: 41%;
         /* animation: fadeIn2 1s ease-in-out; */
         z-index:3;
@@ -401,7 +401,7 @@
         }
       }
 
-      @media screen and (max-width: 2150px) {
+      @media screen and (min-width: 1600px) {
 
         .ImgSlide-imagemob1 {
           position: absolute;
@@ -415,7 +415,6 @@
           position: absolute;
           top: 27%;
           left: 30%;
-         
           animation: zoom-in-zoom-out 2s ease-out ;
           z-index: 2;
         }
@@ -499,7 +498,6 @@
           position: absolute;
           top: 25%;
           left: 44%;
-          /* animation: fadeIn2 1s ease-in-out; */
           z-index:3;
         }
         .ImgSlide-imagemob4 {
