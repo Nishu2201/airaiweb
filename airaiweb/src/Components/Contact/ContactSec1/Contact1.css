@@ -44,6 +44,9 @@
         font-size: 1.2vw;
         line-height: 2vw;
     }
+    .needs .p3{
+        font-size: 1vw;
+    }
     .contact1-img{
         padding: 0;
         width: 18vw;

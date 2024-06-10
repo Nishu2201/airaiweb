@@ -117,9 +117,10 @@
    }
    .Service1-data{
       padding: 0;
+      padding-left: 2vw;
    }
    .service-p {
-       font-size: 1vw;
+       font-size: 0.8vw;
        padding-top: 2vw; 
        line-height: 1.6vw;
    }

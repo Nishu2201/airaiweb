@@ -6,7 +6,7 @@ import Navbar from '../../Navbar/Navbar';
 
 export const Why12 = () => {
   return (
-    <div className='why12 bg-cover bg-center min-h-screen overflow-hidden child' style={{ backgroundImage: `url(${bg})` }}>
+    <div className='why12 bg-cover bg-center min-h-screen overflow-hidden' style={{ backgroundImage: `url(${bg})` }}>
       <Navbar />
       <h1 className='why-head'>Why Choose Us?</h1>
       <div className='Choose grid grid-cols-1 xl:grid-cols-2 gap-4'>

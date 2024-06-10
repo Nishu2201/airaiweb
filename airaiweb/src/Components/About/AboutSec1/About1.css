@@ -223,6 +223,7 @@ font-size: 2vw;
   @media (max-width:550px) {
     .About1-h1{
       padding: 0.3rem 0;
+      font-size: 7vw;
     }
     .whos-p1 {
       text-align: center;

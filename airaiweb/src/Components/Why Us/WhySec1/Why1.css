@@ -14,7 +14,7 @@
 
 .Choose {
   display: flex;
-  /* flex-wrap: wrap; */
+ 
   align-items: center;
   justify-content: center;
   padding: 0 5vw;
@@ -67,27 +67,52 @@
   width: auto;
   height: auto;
 }
-@media  (min-width: 2450px) {
+@media  (min-width: 2150px) {
+  .Choose{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    padding-bottom: 1vw;
+  } 
+  .left{
+    width: 50%;
+    padding-left: 5vw;
+    margin: 0;
+  }
   .why-head{
-    padding-top: 2vw;
+    font-size: 2vw;
+  }
+  .left h1{
     font-size: 3vw;
   }
-  .Choose{
-    padding: 3vw 6vw;
-    padding-bottom: 1vw;
-  }
   .left h3{
-    font-size: 1.3vw;
+    padding: 0;
+    font-size: 1vw;
   }
   .why-button p{
     font-size: 1.2vw;
 }
+.right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-@media screen  and (min-width: 1600px) {
+.why-square{
+  width: 60vw;
+  height: 60vw;
+}
+.why-img{
+  width: 35vw;
+}
+}
+@media screen  and (max-width: 2100px) {
 .Choose{
   padding: 3vw 6vw;
   padding-bottom: 1vw;
-}
+} 
 .why-head{
   padding-top: 2vw;
   font-size: 3vw;
@@ -112,10 +137,13 @@
     justify-content: center;
   }
   .why-square{
+    max-width: 80vw;
+    max-height: 80vw;
     width: 60vw;
     height: 50vw;
   }
   .why-img{
+    max-width: 45vw;
     width: 20vw;
   }
   .why-button{
@@ -184,6 +212,9 @@
   .left{
     padding-bottom: 3vw;
   }
+  .why-head{
+    font-size: 7vw;
+  }
   .left h1 {
     font-size: 36px;
     line-height: 6vh;
@@ -235,8 +266,8 @@ padding: 0;
 .why-square {
   position: relative;
   margin: 0 10px;
-  max-width: 70vw;
-  max-height: 70vw;
+  max-width: 80vw;
+  max-height: 80vw;
   width: 400px;
   height: 400px;
   display: flex;

@@ -16,7 +16,7 @@ export const Contact1 = () => {
         <div className='needs flex flex-col items-start justify-start p-20 m-6 my-0 mr-0 pr-44 '>
           <p className='needs-p1 text-white text-6xl font-black font-lato py-6 leading-tight'>Need AIRAI's<br/> Help?</p>
           <p className='needs-p2 text-white text-2xl font-lato font-bold'>Contact us to bring your vision to life.</p>
-          <p className='needs-p2 text-white text-lg font-lato '><span className='font-black'>"</span>Simply complete the form below with details about your 
+          <p className='needs-p2 p3 text-white text-lg font-lato '><span className='font-black'>"</span>Simply complete the form below with details about your 
           project or job requirements, and our representative will promptly get in touch with you.<span className='font-black'>"</span></p>
         </div>
         <div className='contact-rght flex items-center justify-center m-0 p-0 mb-6 py-9 ' >
