@@ -3,8 +3,6 @@ import './Sec1Copy.css';
 import Navbar from '../../Navbar/Navbar';
 import { Link } from 'react-router-dom';
 import bg from '../../../images/sec 1/bg.png';
-import line1 from '../../../images/sec 1/line 1.png';
-import line2 from '../../../images/sec 1/line 2.png';
 import shape1 from '../../../images/sec 1/shape 1.png';
 import shape2 from '../../../images/sec 1/shape 2.png';
 import shape3 from '../../../images/sec 1/shape 3.png';

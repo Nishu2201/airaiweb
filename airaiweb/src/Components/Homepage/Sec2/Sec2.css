@@ -1,12 +1,7 @@
 .child {
   scroll-snap-align: center;
 }
-/* .Sec2-data{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-} */
+
 @media (min-width:1600px) {
   .Sec2{
     display: flex;
@@ -141,7 +136,6 @@
 }
 @media (max-width: 392px) {
   .Sec2{
-    background-color: aqua;
   
     padding-top: 0 ;
     display: flex;
@@ -149,9 +143,9 @@
     align-items: center;
     justify-content: center;
   }
-.Sec2-imgs{
+/* .Sec2-imgs{
   overflow: hidden;
-}
+} */
 .Sec2-imgs img{
   width: 80%;
   margin: 0;

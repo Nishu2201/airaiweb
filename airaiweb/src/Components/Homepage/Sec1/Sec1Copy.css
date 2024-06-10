@@ -76,7 +76,6 @@ width: auto;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        height: auto;
       }
     .Sec1-h{
         font-size: 8vw;
@@ -110,15 +109,8 @@ width: auto;
         width: 100%;
     }
 }
-@media (max-width:550px) {
-.home-sec1{
-    height: auto;
-}
-}
+
 @media (max-width:490px) {
-    .home1{
-        height: auto;
-    }
     .home-sec1{
         margin: 0;
         padding-top: 0vw;
@@ -167,5 +159,14 @@ width: auto;
     .home-pic {
         padding-top: 2vw;
         width: 750px;
+    }
+}
+
+@media (max-width:390px) {
+    .home-sec1{
+        margin: 0;
+        padding-top: 0vw;
+        height: 90vh;
+        
     }
 }

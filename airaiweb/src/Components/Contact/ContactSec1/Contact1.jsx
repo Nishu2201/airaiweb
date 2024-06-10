@@ -2,7 +2,6 @@ import React from 'react';
 import './Contact1.css';
 import bg from '../../../images/contact us/Sec1/bg.png';
 import design from '../../../images/contact us/Sec1/design.png';
-import bg2 from '../../../images/contact us/Sec1/shape.png';
 import Navbar from '../../Navbar/Navbar';
 
 export const Contact1 = () => {
