@@ -376,8 +376,43 @@
                animation: slideIn 7s ease-in-out;
               }
       }
-      @media screen and (max-width: 1480px) {
-        
+      @media screen and (max-width: 1300px) {
+        .ImgSlide-imagemob6 {
+          position: absolute;
+          top: 5%;
+          left: 35%;
+          bottom: 0%;
+          animation: fadeIn 5s ease-in-out;
+          z-index: 2;
+        }
+        .ImgSlide-imagemob11 {
+          position: absolute;
+          top: 42%;
+          left: 3%;
+          animation: mover 2s infinite  alternate;
+          z-index: 1;
+        }
+        .ImgSlide-imagemob12 {
+          position: absolute;
+          top: 3%;
+          right: 1%;
+          animation: mover 2s infinite  alternate;
+          z-index: 1;
+        }
+        .ImgSlide-imagemob13 {
+          position: absolute;
+         top:  44%;
+          right: 25%;
+          animation: mover 2s infinite  alternate;
+          z-index: 1;
+        }
+        .ImgSlide-imagemob14 {
+          position: absolute;
+          bottom:  5%;
+          left: 62%;
+          animation: mover 2s infinite  alternate;
+          z-index: 1;
+        }
       }
       @media (max-width: 1250px) {
         .ImgSlider-container{

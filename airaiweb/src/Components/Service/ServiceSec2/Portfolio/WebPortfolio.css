@@ -286,6 +286,33 @@
           opacity: 1;
         }
       }
+      @media (max-width: 1350px) {
+        .ImgSlide1-title {
+          text-align: left;
+          margin-right: 25%;
+          text-wrap: wrap;
+          max-width: 20rem;
+          font-size: 3rem;
+          line-height: 4.1rem;
+        }
+        .ImgSlide1-desc {
+          width: 100%;
+          text-wrap: wrap;
+          margin-right: 52%;
+          max-width: 60%;
+          font-size: 18px;
+        }
+        .ImgSlide2-title {
+          font-size: 4rem;
+          
+        }
+        .ImgSlide3-content {
+                top:-12%;
+              }
+              .ImgSlide3-title {
+                font-size: 3rem;
+              }
+      }
       @media (max-width: 1250px) {
         .ImgSlider-container{
           height: auto;

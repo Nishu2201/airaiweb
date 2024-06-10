@@ -362,6 +362,89 @@
           opacity: 1;
         }
       }
+      @media screen and (max-width: 1300px) {
+        .ImgSlide-imageGame2 {
+          position: absolute;
+          width: 40%;
+        }
+        .ImgSlide-imageGame3 {
+          position: absolute;
+          width: 40%;
+          top:27%;
+          left:35%;
+          animation: fade ;
+          animation: fadeIn 1s ease-in-out;
+          z-index: 2;
+          animation: bannermove 10s linear infinite;
+        }
+        .ImgSlide-imageGame4 {
+          position: absolute;
+          width: 40%;
+          top:68%;
+          left:65%;
+          animation: fade ;
+          animation: fadeIn 1s ease-in-out;
+          z-index: 2;
+          animation: bannermove 10s linear infinite;
+        }
+        .ImgSlide-imageGame5 {
+          position: absolute;
+          width: 40%;
+        }
+        .ImgSlide-imageGame6 {
+          position: absolute;
+          top:31%;
+          width: 40%;
+          left: 74%;
+          bottom: 0%;
+          animation: fadeIn 1s ease-in-out;
+          animation: bannermove 10s linear infinite;
+          z-index: 2;
+        }
+        .ImgSlide-imageGame7{
+          width: 40%;
+        }
+        .ImgSlide-imageGame8, 
+        .ImgSlide-imageGame9,
+        .ImgSlide-imageGame10,
+        .ImgSlide-imageGame11{
+          width: 20%;
+        }
+        .ImgSlide-imageGame12, 
+        .ImgSlide-imageGame13,
+        .ImgSlide-imageGame14,
+        .ImgSlide-imageGame15,
+        .ImgSlide-imageGame16{
+          width:25%;
+        }
+        .ImgSlide-imageGame16 {
+          position: absolute;
+          top: 45%;
+          right: 28%;
+          animation: bannermove 20s linear infinite;
+        }
+        .ImgSlide-imageGame17 {
+          position: absolute;
+          top: 5%;
+          width: 25%;
+          right: 10%;
+          animation: bannermove 20s linear infinite;
+        }
+        .ImgSlide-imageGame18 {
+          position: absolute;
+          top:  60%;
+          width: 25%;
+          right:16%;
+          animation: bannermove 20s linear infinite;
+        }
+        .ImgSlide-imageGame19 {
+          position: absolute;
+          top:  45%;
+          width: 25%;
+          left: 90%;
+          animation: bannermove 20s linear infinite;
+        }
+      }
       @media screen and (max-width: 1480px) {
         .ImgSlide-imageGame3 {
           position: absolute;

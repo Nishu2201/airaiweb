@@ -120,7 +120,6 @@ const WebPortfolio = () => {
       image5: require('../../../../images/Service/sec2/Web-designs/web 2/3.png'),
       singleImage: require('../../../../images/Service/sec2/Web-designs/web 2/ref.png'),
       titleClass: 'ImgSlide2-title',
-      descClass: 'ImgSlide-desc',
       contentClass: 'ImgSlide2-content',
     },
     {
